@@ -1,0 +1,2 @@
+cd .\my-website\
+npm run dev

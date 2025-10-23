@@ -1,0 +1,20 @@
+/* 📄 index.css */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: transparent !important;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+/* Убираем возможные отступы от Navbar */
+.navbar {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
