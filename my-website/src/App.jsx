@@ -37,6 +37,7 @@ import { Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import About from "./pages/About";
+import { Analytics } from "@vercel/analytics/next";
 
 export default function App() {
   return (
@@ -54,6 +55,7 @@ export default function App() {
           <Route path="/about" element={<About />} />
         </Routes>
       </div>
+      <Analytics />
     </div>
   );
 }
