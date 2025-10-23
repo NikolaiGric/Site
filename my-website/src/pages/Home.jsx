@@ -77,24 +77,25 @@ export default function Home() {
             Начинающий разработчик и преподаватель.<br />
             Работаю с Python, веб-технологиями и учу ребят программировать.
           </p>
-          <div className="d-flex flex-column flex-md-row gap-3 justify-content-center justify-content-md-start">
-            <motion.button
-              className="btn btn-light btn-lg shadow-sm"
-              onClick={() => navigate("/about")}
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              👨‍🏫 Обо мне
-            </motion.button>
-            <motion.button
-              className="btn btn-outline-light btn-lg shadow-sm"
-              onClick={() => navigate("/projects")}
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              💻 Проекты
-            </motion.button>
-          </div>
+         <div className="d-none d-md-flex flex-row gap-3 justify-content-md-start">
+          <motion.button
+            className="btn btn-light btn-lg shadow-sm"
+            onClick={() => navigate("/about")}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            👨‍🏫 Обо мне
+          </motion.button>
+          <motion.button
+            className="btn btn-outline-light btn-lg shadow-sm"
+            onClick={() => navigate("/projects")}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            💻 Проекты
+          </motion.button>
+        </div>
+
         </motion.div>
       </div>
     </div>
